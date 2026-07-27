@@ -23,6 +23,10 @@ offers none.
 
 ### Recent
 
+**[failures-that-dont-throw](https://github.com/siliroid/failures-that-dont-throw)** — a working
+list of the bug classes above, each with the real incident that taught it to me and the test that
+catches it. Including the ones where I was the one who got it wrong.
+
 **[whereruns](https://github.com/siliroid/whereruns)** — CLI + MCP server. Answers the reader's
 question, not the writer's: *is this file the one that actually executes?* Everything adjacent is
 writer-side — IaC drift, build attestation — and both protect the deploy rather than the reader.
