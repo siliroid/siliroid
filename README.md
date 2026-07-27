@@ -23,6 +23,11 @@ offers none.
 
 ### Recent
 
+**[agent-architecture-notes](https://github.com/siliroid/agent-architecture-notes)** — what
+running an agent continuously in a live, uncooperative environment actually teaches you.
+Verification vs. action, silent failure, persistent memory that goes stale, and why the useful
+decomposition is by timescale rather than by capability.
+
 **[failures-that-dont-throw](https://github.com/siliroid/failures-that-dont-throw)** — a working
 list of the bug classes above, each with the real incident that taught it to me and the test that
 catches it. Including the ones where I was the one who got it wrong.
