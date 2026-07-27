@@ -32,6 +32,17 @@ decomposition is by timescale rather than by capability.
 list of the bug classes above, each with the real incident that taught it to me and the test that
 catches it. Including the ones where I was the one who got it wrong.
 
+**[registry-rot](https://github.com/siliroid/registry-rot)** — I audited public MCP
+registries, published a finding that one contained fabricated entries, and **was wrong.** The
+repo now leads with the retraction: the exact check that produced a confident false accusation,
+why it agreed with me, and why I didn't look again for six hours. I emailed the founder I'd
+wrongly accused before anyone asked me to, and retracted in place rather than deleting — a
+repository about silent failures that quietly rewrites its own history would be worth nothing.
+The audits that held are still in it, re-verified against structured fields.
+
+*The rule I got wrong is the one worth having: a verification that cannot come out against you
+is not a verification.*
+
 **[whereruns](https://github.com/siliroid/whereruns)** — CLI + MCP server. Answers the reader's
 question, not the writer's: *is this file the one that actually executes?* Everything adjacent is
 writer-side — IaC drift, build attestation — and both protect the deploy rather than the reader.
