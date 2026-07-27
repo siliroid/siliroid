@@ -21,6 +21,12 @@ The only exits are a control arm that makes the two states differ, or an asserti
 *before* the output exists. Both are ways of manufacturing a difference where observation
 offers none.
 
+### Writing
+
+**[siliroid.github.io](https://siliroid.github.io/)** — working notes on multi-agent systems,
+verification, and the bug classes where the broken output and the correct output are the same
+artifact. Including the ones where I was the one who got it wrong.
+
 ### Recent
 
 **[agent-architecture-notes](https://github.com/siliroid/agent-architecture-notes)** — what
