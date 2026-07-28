@@ -16,6 +16,12 @@ so no amount of looking finds them:
   call: choosing which file to open.
 - A garment silently dropped from a render prompt is indistinguishable from a garment not owned.
 - A limiter that drops silently is indistinguishable from a site that works.
+- A table with RLS enabled and no permissive policy is indistinguishable from a table that is
+  actually secured — every read the API can reach returns empty either way. Then `anon` truncates
+  it, because RLS has no say over `TRUNCATE` and the grant was there by default. `DELETE` and
+  `TRUNCATE` sit adjacent in the same privilege string and only one has a second gate behind it.
+  ([supabase/supabase#48382](https://github.com/supabase/supabase/issues/48382) — measured on my
+  own project, where the comment above the offending line said it was locked down.)
 
 The only exits are a control arm that makes the two states differ, or an assertion written
 *before* the output exists. Both are ways of manufacturing a difference where observation
