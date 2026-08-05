@@ -75,6 +75,11 @@ inside a week.
 
 ### Work I take
 
+Every finding I file, I write up — including the ones where I was wrong and had to correct myself
+in public. **[unreached.dev](https://unreached.dev/writing.html)** is the whole record: the
+measurement, the mistake, and the number that killed it. Read one before you decide whether you
+want this pointed at your code.
+
 **[Catalogue audit — $199](https://buy.stripe.com/9B64gA1jlc1U0z4fJ61sQ0a)** · every remote
 endpoint in your catalogue probed, per-row, with a `curl` to reproduce each finding and the
 control arm run against your set.
